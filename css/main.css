@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid;
+    padding: 200px; 
+}
+.item{
+    padding: 120px;
+    border: 2px solid;
+}
+
+.item1{
+    background: lightblue;
+}
+.item2{
+    background: lightcoral;
+    position: relative;
+    padding: 120px 300px 120px 300px ;
+    top: -40px;
+}
+.item3{
+    background: lightgreen;
+    position: sticky;
+    bottom: 70px;
+}
+.item4{
+    background: lightskyblue;
+    position: absolute;
+    bottom: 5px;
+    right: 6px;
+}
